@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interface de login do Trello</title>
+    <link rel="stylesheet" href="tello.css">
+</head>
+
+<body>
+
+<header>
+    <img src="img/trello.svg" width="160" alt="logo trello">
+</header>
+
+<h1>Fazer login no Trello</h1>
+
+<form method="get">
+
+    <label>E-mail</label>
+    <input type="text" name="email" placeholder="Insira o e-mail">
+
+    <label>Senha</label>
+    <input type="password" name="password" placeholder="Insira sua senha">
+
+    <!-- CHECKBOX NOVO -->
+    <div class="check">
+        <input type="checkbox" id="keep">
+        <label for="keep">Continuar conectado</label>
+    </div>
+
+    <input type="submit" value="Fazer login">
+
+    <span>ou</span>
+
+    <!-- PASSKEY NOVO -->
+    <button type="button" class="passkey">
+        🔑 Passkey
+    </button>
+
+    <button type="button">
+        <img src="img/google.svg" width="20">
+        Fazer login com Google
+    </button>
+
+    <button type="button">
+        <img src="img/microsoft.svg" width="20">
+        Fazer login com Microsoft
+    </button>
+
+    <button type="button">
+        <img src="img/apple.svg" width="20">
+        Fazer login com Apple
+    </button>
+
+    <button type="button">
+        <img src="img/slack.svg" width="20">
+        Fazer login com Slack
+    </button>
+
+</form>
+
+<!-- imagens decorativas (mantidas) -->
+<img src="img/atlassian.svg" width="180">
+<img src="img/analytics.svg" class="bg-left" alt="Analytics">
+<img src="img/interactive.svg" class="bg-right" alt="Interactive">
+
+</body>
+</html>
